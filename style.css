@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*body Start here*/
+body {
+    background-color: #CCCCCC;
+}
+
+/*Container Start here*/
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: #E4F9E5;
+    padding: 8px;
+}
+
+/*Header Start here*/
+header{}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio {
+    float: left;
+    padding: 30px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #11999e;
+}
+
+.header-contact {
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a {
+    text-decoration: none;
+    color: teal;
+}
+
+.header-contact a:hover {
+    color: red;
+
+}
+
+.clear-both {
+    clear: both;
+}
+
+/*Header End here*/
+hr {
+    border: 3px solid black;
+    margin: 20px auto;
+}
+/*Main Staet here*/
+main{}
+.personal-info{
+
+}
+.personal{
+    float: left;
+    word-wrap: 30&;
+}
+.ditails{
+    float:right;
+}
+hr {
+    border: 3px solid black;
+    margin: 20px auto;
+}
+/*Main End here*/
+/*footer start here*/
+footer{
+    background-color: #11999e;
+    text-align: center;
+}
+.social-icon{}
+.social-icon ul{}
+.social-icon ul li{ 
+    list-style-type: none;
+    margin: 10px;
+    display: inline-block;
+}
+.social-icon ul li a{
+    color: black;
+    text-decoration: none;
+}
+.contact{}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+/*footer End here*/
+/*Container End here*/
+/*body End here*/
